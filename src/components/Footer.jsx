@@ -14,6 +14,7 @@ export default function Footer() {
           <p className="muted">Phone: <a href="tel:6366653022" className="link">6366653022</a></p>
           <p className="muted">Location: Bangalore, India</p>
           <p className="muted"><a href="mailto:harimohan.info@gmail.com" className="link">harimohan.info@gmail.com</a></p>
+          <p className="muted"><a href="https://www.linkedin.com/in/hari-m-47299b54/?skipRedirect=true" target="_blank" rel="noopener" className="link">LinkedIn</a></p>
           <p style={{marginTop:8}}>
             <a href="https://www.youtube.com/@Haripoints" target="_blank" rel="noopener" className="link">YouTube</a>
             <span style={{marginLeft:12}}></span>

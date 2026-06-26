@@ -108,6 +108,26 @@ html,body,#root{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui
 .training-form{display:flex;flex-direction:column;gap:8px;max-width:480px}
 .training-form input{padding:8px;border-radius:6px;border:1px solid #e6edf7}
 
+..blog-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:16px}
+.blog-card{padding:18px;border:1px solid rgba(255,255,255,0.1);border-radius:14px;background:rgba(255,255,255,0.02)}
+.blog-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+.blog-card-header h4{margin:0;font-size:1.1rem}
+.blog-card-header .meta{margin:0;color:var(--muted)}
+.blog-input,.blog-textarea{width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);border-radius:10px;color:var(--primary);padding:10px;margin-top:8px}
+.blog-input{height:44px}
+.blog-textarea{min-height:100px;resize:vertical}
+.blog-tag{display:inline-flex;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(99,102,241,0.12);color:#dbeafe;font-size:12px;margin-right:8px;margin-top:8px}
+.tags-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.blog-link{display:inline-block;margin-top:16px;color:var(--accent);text-decoration:none;font-weight:700}
+.blog-link:hover{text-decoration:underline}
+.blog-card-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:16px}
+.blog-toolbar{display:flex;flex-direction:column;justify-content:space-between;gap:16px}
+.toolbar-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.editor-message{color:#9ae6b4;font-size:0.95rem}
+.blog-preview{margin-top:12px;color:#cbd5e1;line-height:1.6}
+
+.mt-10{margin-top:2.5rem}
+
 .btn-ghost{background:transparent;border:1px solid #e6edf7;padding:10px 14px;border-radius:8px}
 
 

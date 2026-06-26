@@ -12,8 +12,10 @@ export default function Header() {
             <nav className="primary-nav" aria-label="Primary navigation">
               <a href="#main" className="nav-link" aria-current="page">Home</a>
               <a href="#training-portfolio" className="nav-link">Training Programs</a>
+            
               <a href="#projects" className="nav-link">Projects</a>
               <a href="#site-footer" className="nav-link">Contact</a>
+                <a href="#blog" className="nav-link">Blog</a>
             </nav>
           </div>
 
@@ -35,6 +37,7 @@ export default function Header() {
           <nav aria-label="Mobile navigation">
             <a href="#main" className="mobile-link">Home</a>
             <a href="#training-portfolio" className="mobile-link">Training Programs</a>
+            <a href="#blog" className="mobile-link">Blog</a>
             <a href="#projects" className="mobile-link">Projects</a>
             <a href="#site-footer" className="mobile-link">Contact</a>
           </nav>
